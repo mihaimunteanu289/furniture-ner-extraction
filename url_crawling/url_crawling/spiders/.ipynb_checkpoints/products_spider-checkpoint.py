@@ -6,7 +6,7 @@ from scrapy.linkextractors import LinkExtractor
 from twisted.internet.error import TimeoutError, TCPTimedOutError
 
 # The path to the CSV file which contains the product URLs
-CSV_PATH = "../../../../data/furniture stores pages.csv"
+CSV_PATH = "../../../data/furniture stores pages.csv"
 
 # Defining a new item type 'Product' with fields 'product_name', 'url', and 'error'
 class Product(Item):
