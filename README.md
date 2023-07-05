@@ -4,7 +4,7 @@
 
 <h2>Project Overview</h2>
 
-<p>The goal of this project is to extract product names from a list of URLs of furniture stores. The approach employed here is based on creating a NER model and training it to identify the 'PRODUCT' entities. The model is created using transformer architecture from SparkNLP or HuggingFace Transformers library.</p>
+<p>The goal of this project is to extract product names from a list of URLs of furniture stores. The approach employed here is based on creating a NER model and training it to identify the 'PRODUCT' entities. The model is created using transformer architecture from HuggingFace Transformers library.</p>
 
 <p>The entire project is divided into multiple Jupyter notebooks each detailing a step in the pipeline from data collection to model training.</p>
 
@@ -13,7 +13,6 @@
 <p>Here is a brief explanation of what each part of this repository covers:</p>
 
 <ol>
-<li><code>.ipynb_checkpoints</code>: Contains all the checkpoint files for the notebooks in the project.</li>
 <li><code>data</code>: Contains the input files for URLs as well as the generated files after data extraction.</li>
 <li><code>logs</code>: Contains the log files generated during the execution of the code.</li>
 <li><code>url_crawling</code>: Contains the files related to the crawling of websites from the input URLs.</li>
@@ -31,15 +30,7 @@
 
 <ol>
 <li>Clone the repository using Git: <code>git clone https://github.com/mihaimunteanu289/furniture-ner-extraction.git</code>.</li>
-<li>Install the necessary dependencies. This project requires Python 3.x and the following Python libraries installed:
-    <ul>
-    <li>pandas</li>
-    <li>numpy</li>
-    <li>requests</li>
-    <li>BeautifulSoup</li>
-    <li>sparknlp or transformers (depending on your choice)</li>
-    </ul>
-</li>
+<li>Install the necessary dependencies. This project requires Python 3.10</li>
 <li>Run the notebooks in order.</li>
 </ol>
 
